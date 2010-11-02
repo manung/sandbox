@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FontFamily x:Key="Font_Default">/Resources;component/Fonts/#Helvetica Neue LT Pro</FontFamily>
+    <FontFamily x:Key="Font_Secondary">/Resources;component/Fonts/#Interstate</FontFamily>
+    <FontFamily x:Key="Font_SecondaryBold">/Resources;component/Fonts/#Interstate-Bold</FontFamily>
+</ResourceDictionary>
