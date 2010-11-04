@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Resources.Properties
+namespace FontExplorer.Properties
 {
 
 
