@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<false/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>begin</string>
+		<string>break</string>
+		<string>catch</string>
+		<string>continue</string>
+		<string>data</string>
+		<string>do</string>
+		<string>dynamicparam</string>
+		<string>else</string>
+		<string>elseif</string>
+		<string>end</string>
+		<string>exit</string>
+		<string>filter</string>
+		<string>finally</string>
+		<string>for</string>
+		<string>foreach</string>
+		<string>from</string>
+		<string>function</string>
+		<string>if</string>
+		<string>in</string>
+		<string>param</string>
+		<string>process</string>
+		<string>return</string>
+		<string>switch</string>
+		<string>throw</string>
+		<string>trap</string>
+		<string>try</string>
+		<string>until</string>
+		<string>while</string>
+	</array>
+	<key>BBLMLanguageCode</key>
+	<string>POSH</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Powershell</string>
+	<key>BBLMScansFunctions</key>
+	<false/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+			<key>BBLMLanguageSuffix</key>
+			<string>.ps1</string>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz</string>
+		<key>Prefix for Functions</key>
+		<string>function</string>
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+		<key>Terminator for Prototypes 1</key>
+		<string></string>
+		<key>Terminator for Prototypes 2</key>
+		<string></string>
+		<key>Open Statement Blocks</key>
+		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+		<key>Open Block Comments</key>
+		<string>&lt;#</string>
+		<key>Close Block Comments</key>
+		<string>#&gt;</string>
+		<key>Open Line Comments</key>
+		<string>#</string>
+		<key>Open Strings 1</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>"</string>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 1</key>
+		<true/>
+		<key>Open Strings 2</key>
+		<string>`</string>
+		<key>Close Strings 2</key>
+		<string>`</string>
+		<key>Escape Char in Strings 2</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 2</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
