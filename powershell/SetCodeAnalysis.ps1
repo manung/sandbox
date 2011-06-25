@@ -2,7 +2,8 @@
 Modifies csproj files to turn on/off code analysis in Visual Studio
 #>
 param (
-    $value = 'true'
+    $value = 'true',
+    $exclude = '*Specs*'
 )
 
 $ns = @{msbuild="http://schemas.microsoft.com/developer/msbuild/2003"} 
@@ -17,6 +18,6 @@ function Set-CodeAnalysis {
     $xml.Save($path)
 }
 
-gci -recurse -filter '*.csproj' | % {Set-CodeAnalysis $_.FullName}
+gci -recurse -filter '*.csproj' | ? {$_.FullName -notlike $exclude} | % {Set-CodeAnalysis $_.FullName}
 
 
